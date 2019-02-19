@@ -1,4 +1,7 @@
-// usage: @include breakpoint($device){ **Your CSS** }
+// usage: .class{
+//		@include breakpoint($device){ **Your CSS** }
+//		}
+
 /// Feel free to add more breakpoints or devices
 
 @mixin breakpoint($device) {
